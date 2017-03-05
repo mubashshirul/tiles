@@ -5,14 +5,26 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { AppRoutingModule } from './app.routes';
+
+import { HomeComponent } from './home/home.component';
+import { TilesListComponent } from './tiles-list/tiles-list.component';
+import { TilesDetailComponent } from './tiles-detail/tiles-detail.component';
+import { NavbarComponent } from './navbar/navbar.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    TilesListComponent,
+    TilesDetailComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

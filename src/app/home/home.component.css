@@ -1,0 +1,16 @@
+.home-banner{
+    background-image: url("/assets/images/colored-banner.jpg");
+    background-repeat: round;
+    background-size: contain;
+    height: 440px;
+    display: flex;
+}
+
+.bannerText{
+    margin: auto;
+    text-align: center;
+    color:white;
+    background: rgba(45,45,45,.7);
+    padding: 20px 70px;
+    border-radius: 30px;
+}
